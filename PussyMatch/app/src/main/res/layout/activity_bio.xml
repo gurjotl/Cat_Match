@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jot.pussymatch.bio"
+    android:background="@drawable/fishy2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simba, 16 Months »"
+        android:id="@+id/cat_name_bio"
+        android:layout_marginBottom="166dp"
+        android:textColor="#FEFEFE"
+        android:layout_marginLeft="25dp"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true" />
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/background_bio"
+        android:background="#EEEEEE"
+        android:layout_alignTop="@+id/cat_pic_bio"
+        android:layout_alignLeft="@+id/cat_pic_bio"
+        android:layout_alignStart="@+id/cat_pic_bio"
+        android:layout_toLeftOf="@+id/settings_bio"
+        android:layout_toStartOf="@+id/settings_bio"
+        android:layout_above="@+id/cat_name_bio" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="322dp"
+        android:id="@+id/cat_pic_bio"
+        android:background="@drawable/simba"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/cat_name_bio"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pussy Match"
+        android:id="@+id/pussymatch_bio"
+        android:textColor="#FEFEFE"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textSize="40dp" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/settings_bio"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:background="@drawable/settings"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Santa Cruz, CA"
+        android:id="@+id/location_bio"
+        android:textColor="#FEFEFE"
+        android:textSize="15dp"
+        android:layout_marginTop="21dp"
+        android:layout_alignTop="@+id/cat_name_bio"
+        android:layout_alignLeft="@+id/cat_name_bio"
+        android:layout_alignStart="@+id/cat_name_bio" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loves butterflies, fish, and catnip. Only swipe right if you enjoy good naps. Enjoys long drinks of water. What is life if you don&apos;t get up and eat a few dead rats? Don&apos;t bother if your whiskers are less than 5 inches. No hookups."
+        android:id="@+id/bio"
+        android:layout_below="@+id/location_bio"
+        android:layout_toLeftOf="@+id/settings_bio"
+        android:layout_alignLeft="@+id/background_bio"
+        android:layout_alignStart="@+id/background_bio"
+        android:textSize="17dp"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

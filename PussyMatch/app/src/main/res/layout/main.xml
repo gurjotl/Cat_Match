@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fishy4"
+    android:contextClickable="false">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hiss"
+        android:id="@+id/hiss"
+        android:layout_gravity="bottom"
+        android:width="180dp"
+        android:height="150dp"
+        android:onClick="hiss"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="true"
+        android:textColor="#FEFEFE"
+        android:background="#CF2A27" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meow"
+        android:id="@+id/meow"
+        android:layout_gravity="bottom"
+        android:width="180dp"
+        android:height="150dp"
+        android:onClick="meow"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#FEFEFE"
+        android:background="#009E0F" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/cat_name"
+        android:onClick="bioo"
+        android:layout_above="@+id/hiss"
+        android:layout_marginBottom="15dp"
+        android:textColor="#FEFEFE"
+        android:layout_marginLeft="25dp"
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:layout_width="310dp"
+        android:layout_height="360dp"
+        android:id="@+id/background"
+        android:background="#818181"
+        android:layout_below="@+id/pussymatch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:id="@+id/cat_pic"
+        android:onClick="bioo"
+        android:background="@drawable/starter"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/cat_name"
+        android:layout_marginTop="55dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pussy Match"
+        android:id="@+id/pussymatch"
+        android:textColor="#FEFEFE"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textSize="40dp" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/settings"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:background="@drawable/settings"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/location"
+        android:onClick="bioo"
+        android:textColor="#FEFEFE"
+        android:textSize="15dp"
+        android:layout_above="@+id/hiss"
+        android:layout_alignLeft="@+id/cat_name"
+        android:layout_alignStart="@+id/cat_name" />
+
+</RelativeLayout>
